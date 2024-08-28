@@ -49,12 +49,75 @@ header a:hover{
 }
 .section-mede{
     display: flex;
+    padding: 220px;
+    background-color: #83f3f3;
 }
-.section-mede .div-h2{
+.section-mede .div-bu{
+    justify-content: baseline;
+    font-weight: 400;
+    font-size: 30px;
+}
+.section-mede img{
+    width: 350px;
+    height: auto;
+}
+.section-mede button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #000000;
+    padding: 25px;
+}
+.section-tre{
+    display: flex;
+    padding: 220px;
+    background-color: #83f3f3;
+}
+.section-tre h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-weight: 800;
+    font-size: 35px;
+}
+.section-tre button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #000000;
+    padding: 25px;
+}
+.section-tre img{
+    width: 350px;
+    display: flex;   
+}
+.section-fundo{
+    display: flex;
     padding: 250px;
-    justify-content: first baseline;
+    background-image: url(imagens/img\ cofre\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.section-mede .div-img{
-    width: 50px;
-    height: 10px;
+.section-fundo img{
+    width: 550px;
+}
+.section-fundo h2{
+    font-weight: 400;
+    color: blue;
+    height: 90px;
+    font-size: 80px;
+}
+footer{
+    display: flex;
+    background-color: #000000d3;
+}
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
