@@ -5,18 +5,23 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
+    padding: 50px;
     display: flex;
     background-color: #0000ff;
-    justify-content: space-between;
+    justify-content: end;
 }
 header ul {
     display: flex;
+    
 }
 header ul li{
-    margin-right: 45px;
+    margin-left: 10px;
+    
 }
 header a{
     color: white;
+    font-size: 15px;
+    
 }
 header a:hover{
     color: #8f8ffa;
@@ -41,11 +46,12 @@ header a:hover{
     font-size: 35px;
 }
 .section-top button{
+    margin-top: 30px;
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    border-color: #000000;
-    padding: 25px;
+    background-color: #8f8ffa;
+
 }
 .section-mede{
     display: flex;
@@ -62,16 +68,16 @@ header a:hover{
     height: auto;
 }
 .section-mede button{
+    margin-top: 30px;
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    border-color: #000000;
-    padding: 25px;
+    background-color: #ddddeb;
 }
 .section-tre{
     display: flex;
     padding: 220px;
-    background-color: #83f3f3;
+    background-color: #ddddeb;
 }
 .section-tre h2{
     display: flex;
@@ -82,14 +88,15 @@ header a:hover{
     font-size: 35px;
 }
 .section-tre button{
+    margin-top: 30px;
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    border-color: #000000;
-    padding: 25px;
+    background-color: #ddddeb;
 }
 .section-tre img{
-    width: 350px;
+    padding: 50px;
+    width: 750px;
     display: flex;   
 }
 .section-fundo{
@@ -104,20 +111,48 @@ header a:hover{
     background-attachment: fixed;
 }
 .section-fundo img{
-    width: 550px;
+    width: 350px;
 }
 .section-fundo h2{
     font-weight: 400;
     color: blue;
-    height: 90px;
-    font-size: 80px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: -500px;
 }
-footer{
-    display: flex;
-    background-color: #000000d3;
-}
-footer img{
-    display: flex;
-    justify-content: center;
+.section-fundo p{
+    margin-right: 150px;
+    margin-bottom: 50px;
     align-items: center;
 }
+.section-fundo h2 span{
+    color: rgb(247, 247, 57);
+}
+footer{
+    padding: 50px;
+    background-color: #0000ff;
+    text-align: center;    
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+footer img{
+    margin-top: 1px;
+    width: 250px;
+    height: auto;
+    background-color: #0000ff;
+    margin-bottom: 20px;
+}
+footer p{
+    width: 150px;
+    font-size: 20px;
+    justify-content: right;
+}
+footer a{
+    color: white;
+    display: block;
+}
+/*IgorArauj0*/
