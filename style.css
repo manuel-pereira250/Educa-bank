@@ -21,7 +21,7 @@ header ul li{
 header a{
     color: white;
     font-size: 15px;
-    
+    text-decoration: none;
 }
 header a:hover{
     color: #8f8ffa;
@@ -29,7 +29,7 @@ header a:hover{
 }
 .section-top{
     display: flex;
-    padding: 250px;
+    padding: 150px;
     justify-content: first baseline;
     background: linear-gradient(180deg, #5745f8 8.33%, #0000ff 100%);
 }
@@ -129,30 +129,40 @@ header a:hover{
 .section-fundo h2 span{
     color: rgb(247, 247, 57);
 }
+.line{
+    width: 800px;
+    align-items: end;
+    justify-content: end;
+}
 footer{
     padding: 50px;
-    background-color: #0000ff;
+    background-color: #22222e;
     text-align: center;    
 }
 footer div{
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    align-items: center;
 }
 footer img{
     margin-top: 1px;
     width: 250px;
     height: auto;
-    background-color: #0000ff;
     margin-bottom: 20px;
 }
 footer p{
     width: 150px;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: right;
+    margin: 10px;
+    color: white;
+    
 }
 footer a{
     color: white;
     display: block;
+    text-decoration: none;
 }
+/*github*/
 /*IgorArauj0*/
