@@ -7,7 +7,7 @@
 header{
     padding: 50px;
     display: flex;
-    background-color: #0000ff;
+    background-color: #5ee3f5;
     justify-content: end;
 }
 header ul {
@@ -31,7 +31,7 @@ header a:hover{
     display: flex;
     padding: 150px;
     justify-content: first baseline;
-    background: linear-gradient(180deg, #5745f8 8.33%, #0000ff 100%);
+    background: linear-gradient(180deg, #65c5f1 8.33%, #0396bb 100%);
 }
 .section-top h1{
     font-weight: 400;
