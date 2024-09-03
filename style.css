@@ -1,12 +1,12 @@
-*{
+*{/*tudo do site*/
     list-style: none;/*remove o estilo de lista*/
-    padding: 0;
+    padding: 0;/*tamanho preenchimento*/
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;/*colocando uma font*/
 }
 
 /*inicio do header estelizando*/
-header{
+header{/*cabesa do site*/
     padding: 50px;/*tamanho preenchimento*/
     background-color: #5ee3f5;/*colocar cor de fundo*/
 }
@@ -14,7 +14,7 @@ header ul {/*chamando a (ul)*/
     display: flex;/*tornar flex e deixar lado a lado*/
     justify-content: end;/*justificando o conteudo para o fim (posicionamento) do header*/
 }
-header ul li a{/*ancora*/
+header ul li a{/*chamando a ancora*/
     color: white;
     text-decoration: none;
     margin-left: 10px;/*espaçamento entre (ancoras*/
@@ -74,35 +74,35 @@ header li a:hover{/*aplicando o hover*/
 }
 .section-mede .div-bu{
     justify-content: baseline;
-    font-weight: 400;
+    font-weight: 400;/*peso da */
     font-size: 30px;/*tamanho da letra*/
 }
-.div-bu p{
-    font-size: 40px;
-    color: #2b2626;
-    font-weight: 500;
+.div-bu p{/*estelizando o paragrafo*/
+    font-size: 40px;/*tamanho da letra*/
+    color: #2b2626;/*colocando cor no paragrafo*/
+    font-weight: 500;/*colocando um peso maior no paragrafo*/
     margin-bottom: 20px;/*espaçamento inferior*/
 }
-.section-mede button{
+.section-mede button{/*estelizando o botão*/
     width: 300px;/*largura do botão*/
     height: 50px;/*altura do botão*/
     border-radius: 50px;/*arredondamento da borda*/
     background-color: #6db403be;/*cor da borda*/
     color: #000000be;/*cor da letra*/
 }
-.section-mede button:hover{
+.section-mede button:hover{/*estelizando o botão ao passar o mause*/
     background-color: #6db403be;/*alterando a cor de fundo*/
     color: white;/*colocando a cor na letra*/
     border-color: white;/*cor da borda ao passar o mouse*/
     transition: 0.8s;/*tempo de trasição*/
-    cursor: pointer;
+    cursor: pointer;/*mudando a forma do mause ao passar*/
 }
 /*fim da segunda sessão estelizando*/
 
 /*inicio da terceira sessão estelizando*/
 .section-tre{
     padding: 200px;/*preenchimento da sessão*/
-    background-color: #83f3f3;
+    background-color: #83f3f3;/*cor de fundo*/
 }
 .section-tre h2{/*estelizando o subtitulo*/
     text-align: center;/*alinhando ao centro*/
@@ -117,14 +117,21 @@ header li a:hover{/*aplicando o hover*/
     text-align: justify;/*aqui justificamos o texto*/
 }
 .section-tre button{/*estelizando o botão*/
-    padding: 20px;
+    padding: 20px;/*preenchimento do botão*/
     border-radius: 50px;/*arredondamento da borda*/
     width: 300px;/*largura do botão*/
     font-size: 15px;/*tamanho da letra*/
-    background-color: rgb(12, 12, 207);/*cor da borda*/
-    color: white;/*cor da letra*/
+    background-color: #6db403be;/*cor da borda*/
+    color: rgb(10, 7, 7);/*cor da letra*/
     margin-top: 40px;/*margem superior*/
     margin-bottom: 40px;/*margem inferior*/
+}
+.section-tre button:hover{/*plicando o hover no botão*/
+    background-color: #6db403be;/*alterando a cor de fundo*/
+    color: white;/*colocando a cor na letra*/
+    border-color: white;/*cor da borda ao passar o mouse*/
+    transition: 0.8s;/*tempo de trasição*/
+    cursor: pointer;/*mudando a forma do mause ao passar*/
 }
 .line{/*estelizando a linha*/
     width: 70%;
@@ -135,70 +142,74 @@ header li a:hover{/*aplicando o hover*/
 
     /*IREMOS ALTERAR A FORMATAÇÃO DE ALINHAMENTO*/
 }
-
 /*fim da terceira sessão estelizando*/
 
+/*chamando o container-cofre para estelizar*/
+.container-cofre{/*criação e estilização do container cofre*/
+    padding: 200px;/*preenchimento da sessão*/
+    background: linear-gradient(180deg, #1111c79f 8.33%, #0f0fc288 100%), url(imagens/img\ cofre\ fundo.jpg);/*filtro gradient e imagem de fundo*/
+
+    background-position: center;/*posicionamento da imagem*/
+    background-size: cover;/*tamanho da imagem = total*/
+    background-attachment: fixed;/*deixando a imagem fixa*/
+    display: flex;/*tornando nossa sessão flex*/
+    justify-content: space-evenly;/*justificando o conteudo na - horizontal*/
+    align-items: center;/*alinhamento na vertical*/
+}
+.container-cofre img{/*estilizando a imagem*/
+    width: 350px;/*largura da imagem*/
+}
+.container-cofre h2{/*estilizando o subtitulo*/
+    color: white;/*cor da letra*/
+    text-align: center;/*alinhando o texto ao centro*/
+    font-size: 35px;/*tamanho da letra*/
+    margin-left: 50px;/*espaçamento lateral*/
+    margin-bottom: 30px;/*espaçamento inferior*/
+}
+.container-cofre p{/*chamando o paragrafo*/
+    color: white;/*cor da letra*/
+    font-size: 20px;/*tamanho da letra*/
+    margin-left: 50px;/*margin a esquerda*/
+}
+.container-cofre h2 span{/*estilizando o span*/
+    color: yellow;/*cor da letra*/
+    font-weight: 600;/*peso da font*/
+}
+/**/
+
 /*inicio do footer*/
-.section-fundo{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    padding: 250px;/*preenchimento da sessão*/
-    background-image: url(imagens/img\ cofre\ fundo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-attachment: fixed;
+footer{/*estelizando o footer*/
+    padding: 140px;/*preenchimento do footer*/
+    background-color: #22222e;/*cor de fundo*/
+    text-align: center;/*alinhando ao centro*/
 }
-.section-fundo img{
-    width: 350px;
+.div-privacidade{/*estelizando a nossa class*/
+    display: flex;/*tornando flex*/
+    justify-content: space-between;/*justificando o conteudo*/
 }
-.section-fundo h2{
-    font-weight: 400;
-    color: blue;
-    height: 30px;
-    font-size: 30px;
-    margin-left: 250px;
-    margin-top: -500px;
-}
-.section-fundo p{
-    margin-right: 150px;
-    margin-bottom: 50px;
-    align-items: center;
-}
-.section-fundo h2 span{
-    color: rgb(247, 247, 57);
-}
-/*fim do footer*/
-footer{
-    padding: 50px;
-    background-color: #22222e;
-    text-align: center;    
-}
-footer div{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    align-items: center;
-}
-footer img{
-    margin-top: 1px;
-    width: 250px;
-    height: auto;
-    margin-bottom: 20px;
-}
-footer p{
-    width: 150px;
-    font-size: 15px;
-    justify-content: right;
-    margin: 10px;
-    color: white;
+.div-privacidade p{/*estelizando o paragrafo*/
+    text-align: center;/*alinhando o paragrafo*/
+    color: white;/*cor do paragrafo*/
     
 }
-footer a{
-    color: white;
-    display: block;
-    text-decoration: none;
+.div-privacidade a{/*estelizando a ancora*/
+    color: white;/*cor da ancora*/
+    text-decoration: none;/*removendo a linha em baixo da ancora*/
 }
+.div-privacidade a:hover{/*estelizando a ancora ao passar o mause*/
+    color: purple;/*cor da letra ao passar o mause*/
+    transition: 0.8s;/*tempo de trasasão*/
+}
+footer img{
+    margin-bottom: 35px;/*dando um espaçamento*/
+    
+}
+/*fim do footer*/
+
+
+
+                /*anotaçoes*/
 /*github*/
 /*IgorArauj0*/
+/*chamar id = #*/
+/*chamar class = .(nome da class)*/
