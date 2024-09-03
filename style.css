@@ -102,12 +102,13 @@ header li a:hover{/*aplicando o hover*/
 /*inicio da terceira sessão estelizando*/
 .section-tre{
     padding: 200px;/*preenchimento da sessão*/
-    background-color: #ddddeb;
+    background-color: #83f3f3;
 }
 .section-tre h2{/*estelizando o subtitulo*/
     text-align: center;/*alinhando ao centro*/
     color: rgb(21, 24, 24);/*cor da letra*/
     font-size: 40px;/*tamanho da letra*/
+    margin-top: -170px;/*espaçamento em relação a sessão de cima*/
 }
 .section-tre p{/*estelizando o paragrafo*/
     font-size: 20px;/*tamanho da letra*/
@@ -127,13 +128,14 @@ header li a:hover{/*aplicando o hover*/
 }
 .line{/*estelizando a linha*/
     width: 70%;
-    margin: 0 auto;/*centralizando a linha*/
+    margin: 40px auto;/*(espaçamento de 40px top e bottom) e (esquerda e direita automatico)*/
 }
 .section-tre img{/*estelizando a imagem*/
-    padding: 50px;/*preenchimento da imagem*/
-    width: 750px;
-    display: flex;   
+    margin-left: 200px;/*espaçamento a esquerda*/
+
+    /*IREMOS ALTERAR A FORMATAÇÃO DE ALINHAMENTO*/
 }
+
 /*fim da terceira sessão estelizando*/
 
 /*inicio do footer*/
