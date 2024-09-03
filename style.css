@@ -1,107 +1,145 @@
 *{
-    list-style: none;
+    list-style: none;/*remove o estilo de lista*/
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header{
-    padding: 50px;
-    display: flex;
-    background-color: #5ee3f5;
-    justify-content: end;
-}
-header ul {
-    display: flex;
-    
-}
-header ul li{
-    margin-left: 10px;
-    
-}
-header a{
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-}
-header a:hover{
-    color: #8f8ffa;
-    transition: 0,8ss;
-}
-.section-top{
-    display: flex;
-    padding: 150px;
-    justify-content: first baseline;
-    background: linear-gradient(180deg, #65c5f1 8.33%, #0396bb 100%);
-}
-.section-top h1{
-    font-weight: 400;
-    color: blue;
-    height: 90px;
-    font-size: 80px;
-}
-.section-top p{
-    color: blue;
-    font-weight: 350;
-    height: 50px;
-    font-size: 35px;
-}
-.section-top button{
-    margin-top: 30px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #8f8ffa;
 
+/*inicio do header estelizando*/
+header{
+    padding: 50px;/*tamanho preenchimento*/
+    background-color: #5ee3f5;/*colocar cor de fundo*/
 }
+header ul {/*chamando a (ul)*/
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: end;/*justificando o conteudo para o fim (posicionamento) do header*/
+}
+header ul li a{/*ancora*/
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;/*espaçamento entre (ancoras*/
+}
+header li a:hover{/*aplicando o hover*/
+    color: #8f8ffa;/*cor ao passar o mouse*/
+    transition: 0,8ss;/*tempo de resposta*/
+}
+/*fim do header estelizando*/
+
+/*inicio da primeira sessão estelizando*/
+.section-top{
+    padding: 200px;/*preenchimento da sessão*/
+    background: linear-gradient(180deg, #65c5f1 8.33%, #0396bb 100%);/*cor com o degrader*/
+}
+.section-top h1{/*titulo da primeira sessao*/
+    font-size: 50px;/*tamanho da fonte*/
+    font-weight: 600;/*peso da fonte*/
+    color: rgb(2, 2, 112);/*cor da letra*/
+    height: 90px;
+}
+.section-top p{/*paragrafo para estetizalão*/
+    margin-top: 10px;/*espaçamento superior*/
+    margin-bottom: 10px;/*espaçamento inferior*/
+    font-size: 40px;/*tamanho da letra*/
+    color: rgb(2, 2, 112);/*cor da letra*/
+    font-weight: 600;/*peso da fonte*/
+}
+.section-top button{/*estelizando o botão da primeira sessão*/
+    width: 300px;/*largura do botão*/
+    height: 50px;/*altura do botão*/
+    border-radius: 50px;/*arredondamento da borda*/
+    background-color: #6db403be;/*cor da borda*/
+    color: #000000be;/*cor da letra*/
+}
+.section-top button:hover{/*plicando o hover no botão*/
+    background-color: #6db403be;/*alterando a cor de fundo*/
+    color: white;/*colocando a cor na letra*/
+    border-color: white;/*cor da borda ao passar o mouse*/
+    transition: 0.8s;/*tempo de trasição*/
+    cursor: pointer;
+}
+/*fin da primeira sessão estelizando*/
+
+/*inicio da segunda sessão estelizando*/
 .section-mede{
-    display: flex;
-    padding: 220px;
-    background-color: #83f3f3;
+    padding: 200px;/*preenchimento da sessão*/
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;/*alinhamento na orizontal*/
+    align-items: center;/*alinhamento na vertical*/
+    background-color: #83f3f3;/*cor de fundo*/
+}
+.section-mede img{/*chamando a imagem para estelizar*/
+    width: 380px;/*largura da imadem*/
+    height: auto;/*altura altomatica*/
+    margin-left: 20px;/*espaçamento a esquerda*/
 }
 .section-mede .div-bu{
     justify-content: baseline;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 30px;/*tamanho da letra*/
 }
-.section-mede img{
-    width: 350px;
-    height: auto;
+.div-bu p{
+    font-size: 40px;
+    color: #2b2626;
+    font-weight: 500;
+    margin-bottom: 20px;/*espaçamento inferior*/
 }
 .section-mede button{
-    margin-top: 30px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #ddddeb;
+    width: 300px;/*largura do botão*/
+    height: 50px;/*altura do botão*/
+    border-radius: 50px;/*arredondamento da borda*/
+    background-color: #6db403be;/*cor da borda*/
+    color: #000000be;/*cor da letra*/
 }
+.section-mede button:hover{
+    background-color: #6db403be;/*alterando a cor de fundo*/
+    color: white;/*colocando a cor na letra*/
+    border-color: white;/*cor da borda ao passar o mouse*/
+    transition: 0.8s;/*tempo de trasição*/
+    cursor: pointer;
+}
+/*fim da segunda sessão estelizando*/
+
+/*inicio da terceira sessão estelizando*/
 .section-tre{
-    display: flex;
-    padding: 220px;
+    padding: 200px;/*preenchimento da sessão*/
     background-color: #ddddeb;
 }
-.section-tre h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    font-weight: 800;
-    font-size: 35px;
+.section-tre h2{/*estelizando o subtitulo*/
+    text-align: center;/*alinhando ao centro*/
+    color: rgb(21, 24, 24);/*cor da letra*/
+    font-size: 40px;/*tamanho da letra*/
 }
-.section-tre button{
-    margin-top: 30px;
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #ddddeb;
+.section-tre p{/*estelizando o paragrafo*/
+    font-size: 20px;/*tamanho da letra*/
+    margin-top: 30px;/*margen superior*/
+    color: rgb(29, 28, 28);/*cor do paragrafo*/
+    text-align: justify;/*aqui justificamos o texto*/
 }
-.section-tre img{
-    padding: 50px;
+.section-tre button{/*estelizando o botão*/
+    padding: 20px;
+    border-radius: 50px;/*arredondamento da borda*/
+    width: 300px;/*largura do botão*/
+    font-size: 15px;/*tamanho da letra*/
+    background-color: rgb(12, 12, 207);/*cor da borda*/
+    color: white;/*cor da letra*/
+    margin-top: 40px;/*margem superior*/
+    margin-bottom: 40px;/*margem inferior*/
+}
+.line{/*estelizando a linha*/
+    width: 70%;
+    margin: 0 auto;/*centralizando a linha*/
+}
+.section-tre img{/*estelizando a imagem*/
+    padding: 50px;/*preenchimento da imagem*/
     width: 750px;
     display: flex;   
 }
+/*fim da terceira sessão estelizando*/
+
+/*inicio do footer*/
 .section-fundo{
-    display: flex;
-    padding: 250px;
+    display: flex;/*tornar flex e deixar lado a lado*/
+    padding: 250px;/*preenchimento da sessão*/
     background-image: url(imagens/img\ cofre\ fundo.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -129,11 +167,7 @@ header a:hover{
 .section-fundo h2 span{
     color: rgb(247, 247, 57);
 }
-.line{
-    width: 800px;
-    align-items: end;
-    justify-content: end;
-}
+/*fim do footer*/
 footer{
     padding: 50px;
     background-color: #22222e;
