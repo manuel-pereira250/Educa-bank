@@ -1,14 +1,134 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #f6c7b7;
+    color: white;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 100px;/*preenchimento da sessão*/
+    background-color: #f6c7b7;/*cor de fundo*/
+}
+header ul{
+    display: flex;
+    justify-content: end;
+}
+header ul li{
+    margin-left: 10px;
+    text-decoration: none;
+}
+header a{
+    color: #b42529;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
 .flex-container{
+    padding: 200px;/*preenchimento da sessão*/
     display: flex;/*tornando flex*/
-    flex-wrap: wrap;
+    justify-content: center;/*justificando conteudo ao centro*/
+    align-items: center;/*alinhando os items ao centro na vertical*/
     flex-direction: row;/*trabalha com a direção das caixas/elementos filhos*/
-    background-color: dodgerblue;/*cor de fundo*/
+    background-color: #f7a398;/*cor de fundo*/
+    background: linear-gradient(360deg, #f7a398 8.33%, #fa7f77 100%);/*cor com o degrader*/
+    gap: 35px;/*propriedade utilizada para dar o respiro/espaço entre as caixas  e colocado no elemento pai*/
 }
 .flex-container div{
-    background-color: #f1f1f1;/*cor de fundo*/
-    width: 100px;
-    margin: 10px;/*mechendo nas margins da caixa*/
-    text-align: center;/*alinhamdo ao centro*/
-    line-height: 75px;
-    font-size: 30px;
+    padding: 20px;/*preenchimento da caixa interna*/
+    background-color: #7592f1;/*cor de fundo*/
+    width: 100px;/*largura da caixa*/
+    height: 300px;/*altura da caixa*/
+    box-shadow: 10px 10px 10px #000000;/*sombra externa da caixa primeiro calor eixo horizontal, segundo valor eixo vertical, ultimo valor exposição da sombra, podemos nagativar os 2 primeiros (-)*/
 }
+.flex-container div:hover{
+    /* transform: scale(1.1, 1.1); /*trabalhamos com a scala de movimentação dos eixos X e Y */
+
+    transform: rotate(5deg); /*aqui trabalhamos com a rotação da caixa (podemos negativar - ) */
+
+    /*transform: translate(20px, 0px); /*primeiro eixo x (horizontal), depois calor do sixo y (vertical)*/
+
+    /* transform: skew(5deg, 5deg); /* Inclina um elemento ao longo dos eixos X e Y. */
+
+    transition: 0.8s; /*tempo de trasissão quando passar o mause*/
+}
+.med{
+    padding: 200px;
+    background: linear-gradient(180deg, #f7a398 8.33%, #fa7f77 100%);/*cor com o degrader*/
+}
+.med h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #000000;
+}
+.med p{
+    color: #000000;
+}
+.med button{
+    background-color: #fa7f77;
+    padding: 50px;
+    margin-left: 350px;
+    width: 250px;
+    height: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px #000000;
+    cursor: pointer;
+}
+.med button:hover{
+    transition: 0.8s;
+    color: #742e29;
+}
+.fim{
+    padding: 200px;
+    display: flex;
+    background: linear-gradient(360deg, #f7a398 8.33%, #fa7f77 100%);/*cor com o degrader*/
+}
+.fim h2{
+    color: #000000;
+}
+.fim img{
+    width: 500px;
+    height: auto;
+}
+.fim span{
+    color: yellow;
+}
+
+footer {
+    padding: 100px;/*preenchimento da sessão*/
+    background-color: #f6c7b7;/*cor de fundo*/
+}
+footer ul{
+    display: flex;
+    justify-content: end;
+}
+footer ul li{
+    margin-left: 10px;
+    text-decoration: none;
+}
+footer a{
+    color: #b42529;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/*1. translate()
+Descrição: Move um elemento ao longo dos eixos X (Horizontal) e Y (Vertical).*/
+
+/*2. rotate()
+Descrição: Rotaciona um elemento ao redor do seu ponto central.*/
+
+/*3. scale()
+Descrição: Redemensiona um elemento ao ongo dos eixos X e Y.*/
+
+/*4. skew()
+Descrição: Inclina um elemento ao longo dos eixos X e Y.*/

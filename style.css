@@ -1,7 +1,7 @@
 *{/*tudo do site*/
     list-style: none;/*remove o estilo de lista*/
     padding: 0;/*tamanho preenchimento*/
-    margin: 0;
+    margin: 0;/*zerando a margem*/
     font-family: Georgia, 'Times New Roman', Times, serif;/*colocando uma font*/
 }
 
@@ -15,8 +15,8 @@ header ul {/*chamando a (ul)*/
     justify-content: end;/*justificando o conteudo para o fim (posicionamento) do header*/
 }
 header ul li a{/*chamando a ancora*/
-    color: white;
-    text-decoration: none;
+    color: white;/*mudar a cor da ancora*/
+    text-decoration: none;/*temover as decoração do texto*/
     margin-left: 10px;/*espaçamento entre (ancoras*/
 }
 header li a:hover{/*aplicando o hover*/
@@ -208,7 +208,7 @@ footer img{
 
 
 
-                /*anotaçoes*/
+                    /*anotaçoes*/
 /*github*/
 /*IgorArauj0*/
 /*chamar id = #*/
