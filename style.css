@@ -7,8 +7,11 @@
 
 /*inicio do header estelizando*/
 header{/*cabesa do site*/
-    padding: 50px;/*tamanho preenchimento*/
+    padding: 2%;/*tamanho preenchimento*/
     background-color: #5ee3f5;/*colocar cor de fundo*/
+}
+header div h2{
+    font-size: 3em;
 }
 header ul {/*chamando a (ul)*/
     display: flex;/*tornar flex e deixar lado a lado*/
@@ -17,35 +20,37 @@ header ul {/*chamando a (ul)*/
 header ul li a{/*chamando a ancora*/
     color: white;/*mudar a cor da ancora*/
     text-decoration: none;/*temover as decoração do texto*/
-    margin-left: 10px;/*espaçamento entre (ancoras*/
+    margin-left: 1.5em;/*espaçamento entre (ancoras*/
+    font-size: 1em;
+    align-items: center;
 }
 header li a:hover{/*aplicando o hover*/
     color: #8f8ffa;/*cor ao passar o mouse*/
-    transition: 0,8ss;/*tempo de resposta*/
+    transition: 0,8s;/*tempo de resposta*/
 }
 /*fim do header estelizando*/
 
 /*inicio da primeira sessão estelizando*/
 .section-top{
-    padding: 200px;/*preenchimento da sessão*/
+    padding: 14em;/*preenchimento da sessão*/
     background: linear-gradient(180deg, #65c5f1 8.33%, #0396bb 100%);/*cor com o degrader*/
 }
 .section-top h1{/*titulo da primeira sessao*/
-    font-size: 50px;/*tamanho da fonte*/
+    font-size: 4em;/*tamanho da fonte*/
     font-weight: 600;/*peso da fonte*/
     color: rgb(2, 2, 112);/*cor da letra*/
-    height: 90px;
+    height: 7rem;
 }
 .section-top p{/*paragrafo para estetizalão*/
-    margin-top: 10px;/*espaçamento superior*/
-    margin-bottom: 10px;/*espaçamento inferior*/
-    font-size: 40px;/*tamanho da letra*/
+    margin-top: 0.8em;/*espaçamento superior*/
+    margin-bottom: 0.8em;/*espaçamento inferior*/
+    font-size: 2.2em;/*tamanho da letra*/
     color: rgb(2, 2, 112);/*cor da letra*/
     font-weight: 600;/*peso da fonte*/
 }
 .section-top button{/*estelizando o botão da primeira sessão*/
-    width: 300px;/*largura do botão*/
-    height: 50px;/*altura do botão*/
+    width: 20em;/*largura do botão*/
+    height: 4em;/*altura do botão*/
     border-radius: 50px;/*arredondamento da borda*/
     background-color: #6db403be;/*cor da borda*/
     color: #000000be;/*cor da letra*/
