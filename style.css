@@ -7,8 +7,17 @@
 
 /*inicio do header estelizando*/
 header{/*cabesa do site*/
-    padding: 2%;/*tamanho preenchimento*/
+    padding: min(5vh, 4rem);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #5ee3f5;/*colocar cor de fundo*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 0.21rem 0.5rem;
 }
 header div h2{
     font-size: 3em;
@@ -51,7 +60,7 @@ header li a:hover{/*aplicando o hover*/
 .section-top button{/*estelizando o botão da primeira sessão*/
     width: 20em;/*largura do botão*/
     height: 4em;/*altura do botão*/
-    border-radius: 50px;/*arredondamento da borda*/
+    border-radius: 2.2em;/*arredondamento da borda*/
     background-color: #6db403be;/*cor da borda*/
     color: #000000be;/*cor da letra*/
 }
